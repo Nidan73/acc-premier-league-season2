@@ -11,6 +11,7 @@ A real-time tournament management web application for **ACC Community Futsal Lea
 ## 🎯 Features
 
 ### Auction Module
+
 - 🎰 Random player spinner for each position (GK, DEF, MID, FWD)
 - 💰 Dynamic bid increments (৳1,000 under ৳10K, ৳2,000 above)
 - 👥 Team budget tracking (৳150,000 per team)
@@ -19,12 +20,14 @@ A real-time tournament management web application for **ACC Community Futsal Lea
 - 📺 Live display page optimized for projectors
 
 ### League Module
+
 - 📊 Auto-calculated standings with tiebreakers
 - 📅 5-team round-robin schedule (10 matches)
 - 🏆 Final match between top 2 teams
 - 📈 Form tracking (last 5 results)
 
 ### Admin Panel
+
 - 🔐 Passcode-protected access
 - 📝 Full control over auction flow
 - ⚡ Real-time score entry
@@ -55,29 +58,29 @@ npm run dev
 Create a `.env` file in the root directory (optional - has default):
 
 ```env
-VITE_ADMIN_PASSCODE=847291
+
 ```
 
 > **Default Admin Passcode:** `847291`
 
 ## 📜 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Build for production     |
 | `npm run preview` | Preview production build |
 
 ## 🗺️ Routes
 
-| Route | Description | Access |
-|-------|-------------|--------|
-| `/` | Home page with overview | Public |
-| `/live` | Live auction display for projector | Public |
-| `/auction` | Player pool and team rosters | Public |
-| `/league` | Standings and schedule | Public |
-| `/teams/:teamId` | Individual team details | Public |
-| `/admin` | Admin control panel | Protected |
+| Route            | Description                        | Access    |
+| ---------------- | ---------------------------------- | --------- |
+| `/`              | Home page with overview            | Public    |
+| `/live`          | Live auction display for projector | Public    |
+| `/auction`       | Player pool and team rosters       | Public    |
+| `/league`        | Standings and schedule             | Public    |
+| `/teams/:teamId` | Individual team details            | Public    |
+| `/admin`         | Admin control panel                | Protected |
 
 ## 🔑 Admin Access
 
@@ -88,15 +91,17 @@ VITE_ADMIN_PASSCODE=847291
 > **Default passcode:** `847291` (change this in production!)
 
 ### Pre-configured Team Owners:
-| Team | Owner |
-|------|-------|
-| Team Rabies 🦊 | Sami |
-| Meow - meoW FC 🐱 | Ashik |
-| Team Nazi ⚡ | Bkash (Khalid) |
-| Goal Diggers ⛏️ | Sadid |
-| Team Crazy 🤪 | Fardin |
+
+| Team              | Owner          |
+| ----------------- | -------------- |
+| Team Rabies 🦊    | Sami           |
+| Meow - meoW FC 🐱 | Ashik          |
+| Team Nazi ⚡      | Bkash (Khalid) |
+| Goal Diggers ⛏️   | Sadid          |
+| Team Crazy 🤪     | Fardin         |
 
 ### Admin Capabilities
+
 - Start/Pause/End auction
 - Select players for bidding
 - Place bids on behalf of teams
@@ -109,30 +114,33 @@ VITE_ADMIN_PASSCODE=847291
 ## 🎨 Theme
 
 The app uses DaisyUI with custom ACC Futsal themes:
+
 - Light mode: `accfutsal`
 - Dark mode: `accfutsaldark`
 
 ## 💾 Data Backup
 
 ### Export Data
+
 1. Go to Admin Panel → Data tab
 2. Click "Export Full Backup (JSON)"
 3. Save the downloaded file
 
 ### Import Data
+
 1. Go to Admin Panel → Data tab
 2. Click the file input under "Import Data"
 3. Select a previously exported JSON file
 
 ## 🏆 Teams
 
-| Team | Emoji | Color |
-|------|-------|-------|
-| Team Rabies | 🦊 | Red |
-| Meow - meoW FC | 🐱 | Purple |
-| Team Nazi | ⚡ | Green |
-| Goal Diggers | ⛏️ | Amber |
-| Team Crazy | 🤪 | Blue |
+| Team           | Emoji | Color  |
+| -------------- | ----- | ------ |
+| Team Rabies    | 🦊    | Red    |
+| Meow - meoW FC | 🐱    | Purple |
+| Team Nazi      | ⚡    | Green  |
+| Goal Diggers   | ⛏️    | Amber  |
+| Team Crazy     | 🤪    | Blue   |
 
 ## 📖 Documentation
 
