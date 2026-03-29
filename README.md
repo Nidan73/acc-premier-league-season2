@@ -92,13 +92,13 @@ Create a `.env` file in the root directory (optional - has default):
 
 ### Pre-configured Team Owners:
 
-| Team              | Owner          |
-| ----------------- | -------------- |
-| Team Rabies 🦊    | Sami           |
-| Meow - meoW FC 🐱 | Ashik          |
-| Team Nazi ⚡      | Bkash (Khalid) |
-| Goal Diggers ⛏️   | Sadid          |
-| Team Crazy 🤪     | Fardin         |
+| Team              | Owner  |
+| ----------------- | ------ |
+| Team Rabies 🦊    | Sami   |
+| Meow - meoW FC 🐱 | Ashik  |
+| Team Nazi ⚡      | Bkash  |
+| Goal Diggers ⛏️   | Sadid  |
+| Team Crazy 🤪     | Fardin |
 
 ### Admin Capabilities
 
