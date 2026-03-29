@@ -1,5 +1,7 @@
 # ⚽ ACC Futsal League - Auction & League Manager
 
+Live link : [text](https://accpls2-nidan.netlify.app/)
+
 ![React](https://img.shields.io/badge/React-18.2+-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-5.0+-646CFF?logo=vite)
