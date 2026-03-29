@@ -90,8 +90,6 @@ Create a `.env` file in the root directory (optional - has default):
 2. Enter the 6-digit passcode (check `.env` file or ask the administrator)
 3. Session lasts 24 hours
 
-> **Default passcode:** `847291` (change this in production!)
-
 ### Pre-configured Team Owners:
 
 | Team              | Owner          |
